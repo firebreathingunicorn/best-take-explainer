@@ -1,0 +1,50 @@
+{
+  "baseFrame": 2,
+  "frameCount": 6,
+  "people": [
+    {
+      "person": "personA",
+      "baseFrame": 2,
+      "donorFrame": 2,
+      "swapped": false,
+      "baseScore": 0.6200000047683716,
+      "donorScore": 0.6200000047683716,
+      "level": "none",
+      "checksPassed": false,
+      "checkMetrics": {
+        "colorShift": 0.04,
+        "seamRatio": 0.42
+      },
+      "identityDistance": null,
+      "fallbackReason": "no usable donor: candidate frames caught a blink"
+    },
+    {
+      "person": "personB",
+      "baseFrame": 2,
+      "donorFrame": 4,
+      "swapped": true,
+      "baseScore": 0.4099999964237213,
+      "donorScore": 0.8799999952316284,
+      "level": "A",
+      "checksPassed": true,
+      "checkMetrics": {
+        "colorShift": 0.11,
+        "seamRatio": 1.14
+      },
+      "identityDistance": 0.0210000003,
+      "fallbackReason": null
+    }
+  ],
+  "scores": {
+    "personA": [0.08, 0.11, 0.62, 0.09, 0.12, 0.05],
+    "personB": [0.31, 0.22, 0.41, 0.66, 0.88, 0.44]
+  },
+  "candidates": {
+    "personA": [2, 1, 4],
+    "personB": [4, 3, 5, 2]
+  },
+  "expressions": {
+    "personA": ["neutral", "neutral", "smiling", "blinking", "neutral", "talking"],
+    "personB": ["smiling", "neutral", "serious", "smiling", "smiling", "neutral"]
+  }
+}
